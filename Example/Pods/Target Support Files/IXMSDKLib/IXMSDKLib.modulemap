@@ -1,0 +1,6 @@
+framework module IXMSDKLib {
+  umbrella header "IXMSDKLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_IXMSDKLib_Tests {
+  umbrella header "Pods-IXMSDKLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

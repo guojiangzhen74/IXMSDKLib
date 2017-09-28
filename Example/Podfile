@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'IXMSDKLib_Example' do
+  pod 'IXMSDKLib', :path => '../'
+
+  pod "AFNetworking", "~> 2.0"
+  pod 'Masonry'
+  pod 'MJExtension'
+  pod 'SVProgressHUD'
+  pod 'FDFullscreenPopGesture', '1.1'
+  pod 'PodAsset'
+  
+  target 'IXMSDKLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
