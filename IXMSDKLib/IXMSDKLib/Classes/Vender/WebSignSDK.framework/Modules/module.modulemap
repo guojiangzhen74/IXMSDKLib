@@ -1,0 +1,6 @@
+framework module WebSignSDK {
+  umbrella header "WebSignSDK.h"
+
+  export *
+  module * { export * }
+}
